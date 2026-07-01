@@ -9,6 +9,13 @@ read/write, open URL in default browser, and screenshot.
 work on claude.ai (web) or the mobile apps — only the Claude Desktop app
 installed on the same Windows PC.
 
+> ⚠️ **Disclaimer:** This tool grants an AI model direct control over your
+> mouse, keyboard, and clipboard. Use at your own risk, only while actively
+> supervising the screen, and only on a machine and account where you're
+> comfortable with that level of access. This is not an official Anthropic
+> product — it's a community/local connector, provided as-is with no
+> warranty. Review the code before running it.
+
 ## 1. Install Python (Windows)
 
 Install Python 3.10+ from https://python.org (check "Add Python to PATH"
@@ -120,4 +127,3 @@ anything): `get_screen_size`, `get_cursor_position`, `move_cursor`,
   immediately abort whatever action is in progress.
 - Remove the entry from `claude_desktop_config.json` (and restart the app)
   whenever you're not actively using it.
-
