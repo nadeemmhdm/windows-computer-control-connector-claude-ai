@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "windows-computer-control": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\YOUR_USERNAME\\windows-computer-control\\server.py"
+      ]
+    }
+  }
+}
